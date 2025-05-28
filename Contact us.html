@@ -15,14 +15,32 @@
     </p>
 
     <div style="text-align:center;">
-        <form action="mailto:example@example.com" method="post" enctype="text/plain">
-            Name:<br><input type="text" name="name"><br><br>
-            Email:<br><input type="text" name="email"><br><br>
-            Message:<br><textarea name="message" rows="5" cols="30"></textarea><br><br>
-            <input type="submit" value="Send">
-            <input type="reset" value="Reset">
-        </form>
+        <form
+  action="https://formspree.io/f/mqaqryln"
+  method="POST"
+>
+  <label>
+    Your name:<br>
+    <input type="text" name="name" required>
+  </label><br><br>
+
+  <label>
+    Your email:<br>
+    <input type="email" name="email" required>
+  </label><br><br>
+
+  <label>
+    Your message:<br>
+    <textarea name="message" required></textarea>
+  </label><br><br>
+
+  <button type="submit">Send</button>
+</form>
+
     </div>
+
+
+
 
     <div style="text-align:center; margin-top: 20px;">
         <img src="https://cf.bstatic.com/xdata/images/hotel/max1280x900/344205406.jpg?k=ef356310165f7c18c524cde3030759a9033f8dc0ec1d1fb7618fffc86d99fe90&o=&hp=1" width="400">
